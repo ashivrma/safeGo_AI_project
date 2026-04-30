@@ -1,0 +1,21 @@
+# SafeGo AI - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core computer vision
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+
+# Face recognition (requires cmake + dlib)
+# On Windows: pip install cmake, then pip install dlib, then face-recognition
+# On Ubuntu:  sudo apt-get install cmake libopenblas-dev liblapack-dev
+face-recognition>=1.3.0
+numpy>=1.24.0
+
+# Backend server
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# HTTP requests (alerts + geolocation)
+requests>=2.31.0
+
+# Email is built into Python standard library (smtplib)
